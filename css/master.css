@@ -18,7 +18,8 @@ a{
 }
 
 .row{
-  /* margin: 0 auto; */
+  height: 100%;
+  width: 100%;
 }
 
 .row::after{
@@ -43,31 +44,37 @@ header{
 }
 
 
+/* testi specifiche */
+footer a{
+  display: block;
+}
+
+
 
 /* regole generali sezioni */
 section{
   /* height: 300px; */
-  background: lightgrey;
-  border: 1px solid black;
+  /* background: lightgrey;
+  border: 1px solid black; */
 }
 
 
 
 /* regole specifiche sezioni */
-.section_0{
-  min-height: 70vh; /* Vedere se bisogna toglierla */
-  background-image: url("header-img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 .section_3{
   height: 450px;
 }
 
+#section_5{
+  min-height: 400px;
+}
+
 /* regole specifiche center-box piu piccoli */
+header .center-cont,
 .section_0 .center-cont,
-.section_5 .center-cont,
+#section_5 .center-cont,
 footer .center-cont{
   text-align: center;
   width: 70%;
@@ -76,12 +83,18 @@ footer .center-cont{
 }
 
 
-/* regole generali per le colonne */
+/* regole per le colonne */
 .col {
   /* height: 200px; */
   text-align: center;
   background: green;
   width: 45%;
+  float: left;
+}
+
+.layout-4colonne .col-a4{
+  text-align: left;
+  width: 25%;
   float: left;
 }
 
@@ -99,12 +112,19 @@ footer .center-cont{
 }
 
 .section_4 .col{
-  min-height: 600px;
+  min-height: 450px;
 }
 
 
 
 /* immagini background */
+.section_0{
+  min-height: 70vh; /* Vedere se bisogna toglierla */
+  background-image: url("header-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .app-img{
   background-image: url("app-img.png");
   background-repeat: no-repeat;
@@ -133,13 +153,25 @@ footer .center-cont{
 }
 
 #section_5{
+  max-height: 400px;
   background-image: url("Social-Banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 
 }
 
+/* background, dimensione,posizione div */
+
+
+#section_5 .text-area{
+  background-color: white;
+}
+
+/* .text-center{
+  position: absolute;
+  top: 50%;
+} */
 
 
 
@@ -147,6 +179,10 @@ footer .center-cont{
 
 /* footer */
 footer{
-  height: 400px;
+  /* height: 400px; */
   background-color: black;
+}
+
+footer a{
+  color: white;
 }
