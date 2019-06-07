@@ -61,10 +61,27 @@ section{
   margin-right: 10%;
 }
 
-.col img{
-  max-width: 200px;
+.section_1 .col img{
+  max-width: 200px; /* da lasciare */
   height: auto;
 }
+
+.section_4 .col{
+  min-height: 600px;
+}
+
+/* immagini background */
+.app-img{
+  background-image: url("app-img.png");
+  background-size: cover;
+}
+
+.city-img{
+  background-image: url("city.jpg");
+  background-size: cover;
+}
+
+
 
 
 
