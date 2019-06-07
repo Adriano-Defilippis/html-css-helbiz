@@ -12,6 +12,7 @@ a{
 
 .center-cont{
   width: 90%;
+  max-width: 1250px;
   height: 100%;
   margin: 0 auto;
 }
@@ -35,10 +36,12 @@ header{
 
 /* main */
 
+
 /* regole generali testi */
 .section_0, .section_3, .section_4, footer{
   color: white;
 }
+
 
 
 /* regole generali sezioni */
@@ -49,20 +52,28 @@ section{
 }
 
 
+
 /* regole specifiche sezioni */
 .section_0{
-  min-height: 550px; /* Vedere se bisogna toglierla */
+  min-height: 70vh; /* Vedere se bisogna toglierla */
   background-image: url("header-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.section_0 .center-box{
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
+.section_3{
+  height: 450px;
 }
 
+/* regole specifiche center-box piu piccoli */
+.section_0 .center-cont,
+.section_5 .center-cont,
+footer .center-cont{
+  text-align: center;
+  width: 70%;
+  max-width: 1000;
+  margin: 0 auto;
+}
 
 
 /* regole generali per le colonne */
@@ -96,12 +107,14 @@ section{
 /* immagini background */
 .app-img{
   background-image: url("app-img.png");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .city-img{
   background-image: url("city.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .col-mezzo-centerb{
@@ -110,10 +123,21 @@ section{
   max-width: 50%;
 }
 
-.section_3 .row{
+.section_3 .center-cont{
   background-image: url("monopattino.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+
+}
+
+#section_5{
+  background-image: url("Social-Banner.jpg");
   background-size: cover;
-  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
 
 
