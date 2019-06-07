@@ -10,6 +10,12 @@ a{
   text-decoration: none;
 }
 
+li{
+  float: left;
+  list-style: none;
+
+}
+
 .center-cont{
   width: 90%;
   max-width: 1250px;
@@ -31,8 +37,27 @@ a{
 
 /* header */
 header{
-  height: 75px;
-  background: yellow;
+  text-transform: uppercase;
+  font-size: .625em;
+}
+
+header .col-header{
+  float: left;
+  min-width: 33%;
+  text-align: left;
+}
+
+header .center-cont{
+
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header li{
+  margin-right: 4%;
 }
 
 /* main */
@@ -97,6 +122,8 @@ footer .center-cont{
   width: 25%;
   float: left;
 }
+
+
 
 
 
