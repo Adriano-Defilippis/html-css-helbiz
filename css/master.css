@@ -3,7 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: white;
+  /* background: white; */
+}
+
+a{
+  text-decoration: none;
 }
 
 .center-cont{
@@ -31,7 +35,10 @@ header{
 
 /* main */
 
-
+/* regole generali testi */
+.section_0, .section_3, .section_4, footer{
+  color: white;
+}
 
 
 /* regole generali sezioni */
@@ -40,6 +47,9 @@ section{
   background: lightgrey;
   border: 1px solid black;
 }
+
+
+/* regole specifiche sezioni */
 
 
 
@@ -70,6 +80,8 @@ section{
   min-height: 600px;
 }
 
+
+
 /* immagini background */
 .app-img{
   background-image: url("app-img.png");
@@ -79,6 +91,18 @@ section{
 .city-img{
   background-image: url("city.jpg");
   background-size: cover;
+}
+
+.col-mezzo-centerb{
+  float: right;
+  text-align: center;
+  max-width: 50%;
+}
+
+.section_3 .row{
+  background-image: url("monopattino.png");
+  background-size: cover;
+  min-height: 500px;
 }
 
 
