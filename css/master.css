@@ -26,6 +26,7 @@ li{
 .row{
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .row::after{
@@ -97,7 +98,7 @@ section{
 }
 
 #section_5{
-  min-height: 400px;
+  height: 60vh;
 }
 
 /* regole specifiche center-box piu piccoli */
@@ -238,6 +239,18 @@ footer .center-cont{
 
 #section_5 .text-area{
   background-color: white;
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.section_0 .text-area{
+  display: inline;
+  position: absolute;
+  top: 50%;
 }
 
 /* .text-center{
