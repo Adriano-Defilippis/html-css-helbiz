@@ -71,6 +71,7 @@ header li{
   margin-right: 4%;
 }
 
+
 /* main */
 
 
@@ -82,14 +83,26 @@ header li{
   color: white;
 }
 
-.text-area h3{
+.text-area img{
+  margin-top: 2%;
+}
+
+.text-area a, .text-area p{
+  font-size: 22px;
+}
+
+/* regole specifiche testi */
+.section_0 .text-area h1,
+.section_3 .text-area h1{
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+
+/* .section_4 .text-area h3{
   font-size: 2em;
 
-}
-
-.section_0 .text-area h1{
-  font-size: 3em;
-}
+} */
 
 
 /* testi specifiche */
@@ -133,6 +146,14 @@ footer .center-cont{
   max-width: 1000;
   /* margin: 0 auto; */
 }
+
+#section_5 .text-area{
+  /* height: 40%;
+  width: 40%; */
+  padding: 5%;
+}
+
+
 
 /* regole specifiche row */
 #section_2 .row-bottom{
@@ -185,6 +206,13 @@ footer .center-cont{
   min-height: 450px;
 }
 
+.col-mezzo-centerb{
+  /* padding: 2%; */
+  float: right;
+  text-align: center;
+  max-width: 33%;
+}
+
 /* #section_2 .col-img{
   margin-right: 10%;
 } */
@@ -219,11 +247,7 @@ footer .center-cont{
   background-repeat: no-repeat;
 }
 
-.col-mezzo-centerb{
-  float: right;
-  text-align: center;
-  max-width: 50%;
-}
+
 
 .section_3 .center-cont{
   background-image: url("monopattino.png");
@@ -252,6 +276,8 @@ footer .center-cont{
   position: relative;
   bottom: 200px;
 }
+
+
 
 /* #iphone{
   min-width: 100%;
@@ -297,4 +323,9 @@ footer{
 
 footer a{
   color: white;
+  margin: 5% 0;
+}
+
+footer .row{
+  padding: 5% 0;
 }
