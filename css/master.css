@@ -47,8 +47,8 @@ header .col-header{
   text-align: left;
 }
 
-header .center-cont{
-
+header .row:last-child{
+    text-align: right;
 }
 
 header a{
@@ -123,6 +123,11 @@ footer .center-cont{
   float: left;
 }
 
+.col-img{
+  min-height: 800px;
+  min-width: 800px;
+}
+
 
 
 
@@ -164,7 +169,7 @@ footer .center-cont{
   background-size: 100% 100%;
 }
 
-#section_2{
+#section_2 .row-top{
   min-height: 60vh;
   background-image: url("HelbizBanner.jpg");
   background-size: cover;
@@ -195,7 +200,16 @@ footer .center-cont{
 
 }
 
-/* background, dimensione,posizione div */
+/* background, dimensione,posizione div ed immagini */
+#iphone{
+  max-width: 30%;
+  position: relative;
+  height: 100%;
+  max-width:100%;
+  bottom: 200px;
+  left: 450px;
+
+}
 
 
 #section_5 .text-area{
