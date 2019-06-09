@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: arial;
+  line-height: 1.05em;
   /* background: white; */
 }
 
@@ -33,6 +35,10 @@ li{
   content: "";
   display: table;
   clear: both;
+}
+
+#section_2{
+
 }
 
 /* .margin-center{
@@ -68,9 +74,21 @@ header li{
 /* main */
 
 
+
+
+
 /* regole generali testi */
 .section_0, .section_3, .section_4, footer{
   color: white;
+}
+
+.text-area h3{
+  font-size: 2em;
+
+}
+
+.section_0 .text-area h1{
+  font-size: 3em;
 }
 
 
@@ -92,6 +110,9 @@ section{
 
 /* regole specifiche sezioni */
 
+.section_0{
+  height: 80vh;
+}
 
 .section_3{
   height: 450px;
@@ -123,7 +144,7 @@ footer .center-cont{
 .col {
   /* height: 200px; */
   text-align: center;
-  /* background: green; */
+  padding: 4%;
   width: 45%;
   float: left;
 }
@@ -154,8 +175,8 @@ footer .center-cont{
 }
 
 #section_2 .col-sx, .col-dx, .col-img{
-  margin-left: 10%;
-  max-width: 32%;
+  margin: 0 1%;
+  width: 30%;
   float: left;
   text-align: left;
 }
@@ -177,6 +198,7 @@ footer .center-cont{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .app-img{
   background-image: url("app-img.png");
@@ -236,6 +258,15 @@ footer .center-cont{
   height: 100%;
 } */
 
+.section_0 .text-area{
+  width: 80%;
+  line-height: 1.065em;
+  padding: 1%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #section_5 .text-area{
   background-color: white;
@@ -244,14 +275,10 @@ footer .center-cont{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
-.section_0 .text-area{
-  display: inline;
-  position: absolute;
-  top: 50%;
-}
+
+
 
 /* .text-center{
   position: absolute;
