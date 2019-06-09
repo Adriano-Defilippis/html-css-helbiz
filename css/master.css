@@ -114,9 +114,7 @@ footer a{
 
 /* regole generali sezioni */
 section{
-  /* height: 300px; */
-  /* background: lightgrey;
-  border: 1px solid black; */
+  padding: 2% 0;
 }
 
 
@@ -125,6 +123,10 @@ section{
 
 .section_0{
   height: 80vh;
+}
+
+.section_1 .col{
+  background-color: #FAFAFA;
 }
 
 .section_3{
@@ -200,7 +202,10 @@ footer .center-cont{
   width: 30%;
   float: left;
   text-align: left;
+  font-size: 1.25em;
 }
+
+
 
 .section_4 .col{
   min-height: 450px;
@@ -322,7 +327,7 @@ footer{
 }
 
 footer a{
-  color: white;
+  color: lightgrey;
   margin: 5% 0;
 }
 
