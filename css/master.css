@@ -34,6 +34,10 @@ li{
   clear: both;
 }
 
+/* .margin-center{
+  margin: 0 auto;
+} */
+
 
 /* header */
 header{
@@ -99,11 +103,17 @@ section{
 /* regole specifiche center-box piu piccoli */
 header .center-cont,
 .section_0 .center-cont,
+#section_2 .center-cont,
 #section_5 .center-cont,
 footer .center-cont{
   text-align: center;
   width: 70%;
   max-width: 1000;
+  /* margin: 0 auto; */
+}
+
+/* regole specifiche row */
+#section_2 .row-bottom{
   margin: 0 auto;
 }
 
@@ -123,10 +133,9 @@ footer .center-cont{
   float: left;
 }
 
-.col-img{
-  min-height: 800px;
-  min-width: 800px;
-}
+/* .col-img{
+  float: left;
+} */
 
 
 
@@ -143,9 +152,20 @@ footer .center-cont{
   height: auto;
 }
 
+#section_2 .col-sx, .col-dx, .col-img{
+  margin-left: 10%;
+  max-width: 32%;
+  float: left;
+  text-align: left;
+}
+
 .section_4 .col{
   min-height: 450px;
 }
+
+/* #section_2 .col-img{
+  margin-right: 10%;
+} */
 
 
 
@@ -202,14 +222,18 @@ footer .center-cont{
 
 /* background, dimensione,posizione div ed immagini */
 #iphone{
-  max-width: 30%;
+  width: 30%;
+  max-width: 33%;
+  min-width: 250px;
+  min-height: 500px;
   position: relative;
-  height: 100%;
-  max-width:100%;
   bottom: 200px;
-  left: 450px;
-
 }
+
+/* #iphone{
+  min-width: 100%;
+  height: 100%;
+} */
 
 
 #section_5 .text-area{
